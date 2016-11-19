@@ -1,0 +1,63 @@
+/* Empty. Add your own CSS if you like */
+.custom-ritsi{
+    color : white !important;
+    background: #da2724 !important;
+}
+
+.item-divider {
+    white-space: normal;
+}
+
+.copyright {
+    font-size: 0.7em;
+    line-height: 120%;
+}
+
+#centrar {
+    text-align:center;
+}
+
+#centrar p {
+    color: #555555;
+}
+
+#centrar i {
+    color: #da2724;
+    font-size: 1.25em;
+    line-height: 130%;
+}
+
+#centrar a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 1.25em;
+    line-height: 130%
+}
+
+#centrar span {
+    font-size: 1.25em;
+    color: #555555;
+}
+
+#microsoft, #accenture, #axm, #babel, #deloitte, #everis, #BEEVA, #bq, #stratio, #bi4group, #databeers, #betabeers, #politikon {
+    border: 1px dashed #555555;
+    margin-top: 10px;
+}
+
+#microsoft p, #accenture p, #axm p, #babel p, #deloitte p, #everis p, #BEEVA p, #bq p, #stratio p, #bi4group p, #databeers p, #betabeers p, #politikon p {
+    font-size: 0.9em;
+    line-height: 120%;
+    color: #555555;
+}
+
+#microsoft i, #accenture i, #axm i, #babel i, #deloitte i, #everis i, #BEEVA i, #bq i, #stratio i, #bi4group i, #databeers i, #betabeers i, #politikon i {
+    font-size: 1.0em;
+    line-height: 120%;
+    color: #da2724;
+}
+
+#microsoft a, #accenture a, #axm a, #babel a, #deloitte a, #everis a, #BEEVA a, #bq a, #stratio a, #bi4group a, #databeers a, #betabeers a, #politikon a {
+    font-size: 1.0em;
+    line-height: 120%;
+    color: #da2724;
+}

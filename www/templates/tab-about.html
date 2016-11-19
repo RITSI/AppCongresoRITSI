@@ -1,0 +1,37 @@
+<ion-view view-title="Acerca De">
+  <ion-content ng-controller="PlatformCtrl">
+    <div id="centrar" class="col col-80 col-offset-10">
+      <a ng-href="http://ritsi.org/" onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+        <img ng-src="img/icon.png" height="100px" width="100px"/>
+      </a>
+      <div class="copyright">Copyright © 2016 RITSI<br />
+        All Rights Reserved</div><br />
+
+      Versión de la Aplicación: {{appVersion}}
+      <br />
+      <br />
+      <p>La Reunión de Estudiantes de Ingenierías Técnicas y Superiores en Informática aglutina a más de 60.000 estudiantes
+      que cursan estudios de Ingenierías en Informática, y pudiendo llevar su voz a todos los órganos competentes a fin
+      de poder conseguir una mejor situación de sus estudios y profesión.</p>
+      <a ng-href="http://ritsi.org/" onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+        <i class="icon ion-android-globe"></i>
+        ritsi.org
+      </a>
+      <br />
+      <a href="mailto:info@ritsi.org" launch-external="yes">
+        <i class="icon ion-ios-email"></i>
+        info@ritsi.org
+      </a>
+      <br />
+      <a ng-href="https://www.facebook.com/asociacion.ritsi" onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+        <i class="icon ion-social-facebook"></i>
+        facebook.com/asociacion.ritsi
+      </a>
+      <br />
+      <a ng-href="https://www.twitter.com/ritsi" onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+        <i class="icon ion-social-twitter"></i>
+        twitter.com/ritsi
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

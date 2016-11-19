@@ -1,0 +1,28 @@
+<ion-view cache-view="false" view-title="Inicio">
+  <ion-content ng-controller="DashCtrl">
+    <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+    </ion-refresher>
+    <div class="list card">
+      <div class="item item-divider">¡Bienvenido!</div>
+      <div class="item item-body">
+        <div>
+          Bienvenido a la Aplicación de Congresos de RITSI. En el menú desplegable de la izquierda podrás encontrar
+          información del Congreso actual.
+        </div>
+      </div>
+    </div>
+    <div class="item item-divider">
+      Noticias
+      </div>
+      <ion-list>
+        <div class="card" ng-repeat="Noticias in Noticias" type="item-text-wrap">
+          <div class="item item-divider">
+            <div>{{Noticias.titulo}} | {{Noticias.fecha}}</div>
+          </div>
+          <div class="item item-text-wrap">
+            <div>{{Noticias.description}}</div>
+          </div>
+        </div>
+      </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,22 @@
+<ion-view view-title="{{Tracks.name}}">
+  <ion-content class="padding">
+    <div class="item item-divider">
+      {{Tracks.name}}
+    </div>
+    <p class="item">
+      {{Tracks.lastText}}
+    </p>
+    <div>
+      <ion-list>
+          <div class="card" ng-repeat="PonenciasTrack in Tracks.ponencias">
+            <div class="item item-divider">
+              {{PonenciasTrack.horaInicio}} | {{PonenciasTrack.nombrePonencia}}
+            </div>
+            <div class="item item-body">
+              {{PonenciasTrack.descPonencia}}
+            </div>
+          </div>
+      </ion-list>
+    </div>
+  </ion-content>
+</ion-view>

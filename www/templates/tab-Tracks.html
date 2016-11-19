@@ -1,0 +1,14 @@
+<ion-view cache-view="false" view-title="Tracks">
+  <ion-content ng-controller="TracksCtrl">
+    <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+    </ion-refresher>
+    <ion-list>
+      <ion-item class="item-remove-animate item-thumbnail-left item-icon-right" ng-repeat="Tracks in Tracks" type="item-text-wrap" href="#/tab/Tracks/{{Tracks.id}}">
+        <img data-ng-src="data:image/png;base64,{{Tracks.face}}">
+        <h2>{{Tracks.name}}</h2>
+        <p>{{Tracks.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

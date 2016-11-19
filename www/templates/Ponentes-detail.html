@@ -1,0 +1,29 @@
+<ion-view view-title="{{Ponentes.name}}">
+  <ion-content class="padding">
+	  <div class="list card">
+		  <div class="item item-avatar">
+			  <img ng-src="{{Ponentes.face}}" alt="{{Ponentes.name}}">
+		    <h2>{{Ponentes.name}}</h2>
+		    <p>{{Ponentes.notes}}</p>
+		  </div>
+
+		  <div class="item item-body">
+		    <p>{{Ponentes.description}}</p>
+		  </div>
+		  <div class="item tabs tabs-secondary tabs-icon-left">
+			  <div ng-if="Ponentes.twitter != ''">
+				  <a class="tab-item" ng-href="https://twitter.com/{{Ponentes.twitter}}" onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+					  <i class="icon ion-social-twitter"></i>
+					  @{{Ponentes.twitter}}
+				  </a>
+			  </div>
+			  <div ng-if="Ponentes.urlLinkedin != ''">
+				<a class="tab-item" ng-href="{{Ponentes.urlLinkedin}}" onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+					<i class="icon ion-social-linkedin-outline"></i>
+					{{Ponentes.name}}
+				</a>
+			  </div>
+		  </div>
+	  </div>
+  </ion-content>
+</ion-view>

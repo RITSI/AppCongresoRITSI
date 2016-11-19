@@ -1,0 +1,289 @@
+<ion-view view-title="Patrocinadores">
+    <ion-content ng-controller="PatrocinadoresCtrl">
+        <div ng-repeat="Patrocinadores in Patrocinadores">
+            {{Patrocinadores.image}}
+        </div>
+        <div class="item item-divider">
+            Patrocinadores Diamante
+        </div>
+        <div id="centrar" class="col col-80 col-offset-10">
+            <img ng-src="img/Patrocinadores/catedraIBM.png" height="100px" width="150px"/><br/>
+            <span class="titulo">Con la colaboración de</span>
+            <img ng-src="img/Patrocinadores/ibm.png" height="100px" width="150px"/><br/>
+        </div>
+
+        <div class="item item-divider">
+            Patrocinadores Platino
+        </div>
+        <div id="centrar" class="col col-80 col-offset-10">
+            <a href="#" ng-click="descripcion('accenture')">
+                <img ng-src="img/Patrocinadores/accenture.png" height="100px" width="150px"/>
+            </a>
+            <span id="accenture" class="col col-80 col-offset-10" style="display: none">
+                <p>Accenture Digital, que comprende Accenture Analytics, Accenture
+                    Interactive y Accenture Mobility, ofrece un portafolio completo de servicios tecnológicos y de
+                    negocio
+                    basados en márketing digital, movilidad y analytics. Desde el desarrollo de estrategias digitales a
+                    la
+                    implementación de tecnologías digitales y la gestión integral de sus procesos digitales, Accenture
+                    Digital ayuda a los clientes a aprovechar los dispositivos móviles y conectados; a extraer
+                    conocimiento
+                    de los datos empleando analytics; y a enriquecer las experiencias e interacciones con el cliente
+                    final,
+                    proporcionando resultados tangibles para el mundo virtual e impulsando el crecimiento.</p>
+                <a ng-href="http://www.incorporate.accenture.com/"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    accenture.com
+                </a>
+            </span><br/>
+
+            <a href="#" ng-click="descripcion('microsoft')">
+                <img ng-src="img/Patrocinadores/microsoft.png" height="100px" width="150px"/>
+            </a>
+            <span id="microsoft" class="col col-80 col-offset-10" style="display: none">
+                <p>Fundada en 1975, Microsoft (Nasdaq “MSFT”) es el líder mundial de software, Servicios y soluciones
+                    que
+                    ayuda a las personas y a las empresas a desarrollar todo su potencial.</p>
+                <a ng-href="https://www.microsoft.com/es-es"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    microsoft.com
+                </a>
+            </span><br/>
+
+            <a href="#" ng-click="descripcion('axm')">
+                <img ng-src="img/Patrocinadores/axm.png" height="100px" width="150px"/>
+            </a>
+            <span id="axm" class="col col-80 col-offset-10" style="display: none">
+                <p>Abogados por Madrid es una start-up social que desde la sociedad civil
+                    pretende acercar el mundo del derecho a los ciudadanos de Madrid así como influir en la agenda
+                    política
+                    mediante propuestas que surjan al calor del debate, de los seminarios que organizamos o de las
+                    actividades que organizamos.</p>
+                <a ng-href="http://abogadospormadrid.com/"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    abogadospormadrid.com
+                </a>
+            </span><br/>
+        </div>
+
+        <div class="item item-divider">
+            Patrocinadores Oro
+        </div>
+        <div id="centrar" class="col col-80 col-offset-10">
+            <a href="#" ng-click="descripcion('babel')">
+                <img ng-src="img/Patrocinadores/babel.png" height="100px" width="150px"/>
+            </a>
+            <span id="babel" class="col col-80 col-offset-10" style="display: none">
+                <p>BABEL es una empresa internacional que presta servicios tecnológicos
+                    orientados a acompañar a grandes organizaciones en su proceso de Transformación Digital.</p>
+                <p>Proporcionamos servicios a grandes corporaciones de los sectores de la Administración Pública,
+                    la Banca, los Seguros, la Industria y las Telecomunicaciones.</p>
+                <p>Tenemos oficinas en Madrid, Barcelona, Sevilla, Casablanca, Lisboa, Ciudad de México y Londres.</p>
+                <a ng-href="http://babel.es/es"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    babel.es
+                </a>
+            </span><br/>
+        </div>
+
+        <div class="item item-divider">
+            Patrocinadores Plata
+        </div>
+        <div id="centrar" class="col col-80 col-offset-10">
+            <a href="#" ng-click="descripcion('deloitte')">
+                <img ng-src="img/Patrocinadores/deloitte.png" height="100px" width="150px"/>
+            </a>
+            <span id="deloitte" class="col col-80 col-offset-10" style="display: none">
+                <p>Deloitte es la mayor firma de servicios profesionales integrados
+                    a nivel mundial. Aporta soluciones en las áreas de Auditoria, Consultoría, Riesgos, Corporate
+                    Finance,
+                    Asesoramiento Legal y Fiscal.</p>
+                <p>Es miembro de la organización internacional Deloitte Touche Tohmatsu, que cuenta con más de un siglo
+                    de
+                    experiencia en la prestación de servicios profesionales; ofrecemos un sólido soporte internacional a
+                    través del cual hacemos que nuestros clientes se beneficien de servicios multidisciplinares con
+                    capacidad global.</p>
+                <p>Estamos presentes en 21 oficinas y contamos con más de 6.000 profesionales en toda España, y a nivel
+                    internacional somos más de 200.000 profesionales distribuidos en 150 países.</p>
+                <a ng-href="http://www.deloitte.es/"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    deloitte.es
+                </a>
+            </span><br/>
+
+            <a href="#" ng-click="descripcion('everis')">
+                <img ng-src="img/Patrocinadores/everis.png" height="100px" width="150px"/>
+            </a>
+            <span id="everis" class="col col-80 col-offset-10" style="display: none">
+                <p>everis an NTT DATA Company es una consultora multinacional que ofrece soluciones de negocio,
+                    estrategia, desarrollo y mantenimiento de aplicaciones tecnológicas, y outsourcing. La compañía,
+                    que desarrolla su actividad en los sectores de telecomunicaciones, entidades financieras, industria,
+                    utilities, energía, administración pública y sanidad, alcanzó una facturación de 591 millones de
+                    euros en el último ejercicio fiscal. En la actualidad, cuenta con 10.600 profesionales distribuidos
+                    en sus oficinas y centros de alto rendimiento en 13 países.</p>
+                <p>Somos everis y con nosotros podrás desarrollar tu carrera profesional en proyectos para clientes de
+                    primer nivel. En un entorno joven, con buen ambiente y de la mano de grandes profesionales. Además,
+                    podrás seguir formándote en la everis University.</p>
+                <p>Nos gustaría conocerte. ¿Y tú? ¿Quieres conocer lo que hacemos?</p>
+                <a ng-href="http://www.everis.com/global/en-US/home/Paginas/home.aspx"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    everis.com
+                </a>
+            </span><br/>
+        </div>
+        <div class="item item-divider">
+            Patrocinadores Bronce
+        </div>
+        <div id="centrar" class="col col-80 col-offset-10">
+
+            <a href="#" ng-click="descripcion('BEEVA')">
+                <img ng-src="img/Patrocinadores/BEEVA.png" height="100px" width="150px"/>
+            </a>
+            <span id="BEEVA" class="col col-80 col-offset-10" style="display: none">
+                <p>BEEVA somos una compañía del sector tecnológico y de innovación del
+                    Grupo BBVA con experiencia en el sector desde 2001. Desde 2012 hemos enfocado nuestros servicios y
+                    soluciones en Enterprise Cloud Computing, Big Data, integración de nuevos canales digitales y API
+                    Strategy, y actualmente integramos Machine Intelligence e IoT entre nuestras soluciones principales.
+                    Buscamos unir tecnología y negocio para conseguir empresas más productivas, eficientes e innovadoras
+                    y,
+                    para ello, nos apoyamos en nuestros equipos, pieza clave del crecimiento de la compañía.</p>
+                <a ng-href="https://www.beeva.com/"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    beeva.com
+                </a>
+            </span><br/>
+
+            <a href="#" ng-click="descripcion('bq')">
+                <img ng-src="img/Patrocinadores/bq.png" height="100px" width="150px"/>
+            </a>
+            <span id="bq" class="col col-80 col-offset-10" style="display: none">
+                <p>BQ es una de las principales tecnológicas europeas. Nuestro objetivo es
+                    ayudar a las personas a entender la tecnología, animarles a utilizarla e inspirarles a crearla. Para
+                    ello, apostamos por la educación en tecnología, la filosofía DIY y el Open Source. En BQ aplicamos
+                    esta
+                    filosofía a nuestros productos (smartphones, impresoras 3D o robótica, entre otros) y a las
+                    soluciones
+                    software, trabajando para hacer de la tecnología una herramienta que mejore el mundo y la vida de
+                    los
+                    usuarios.</p>
+                <p>Tenemos oficinas en Madrid, Barcelona, Sevilla, Casablanca, Lisboa, Ciudad de México y Londres.</p>
+                <a ng-href="http://www.bq.com/es/"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    bq.com
+                </a>
+            </span><br/>
+
+            <a href="#" ng-click="descripcion('stratio')">
+                <img ng-src="img/Patrocinadores/stratio.png" height="100px" width="150px"/>
+            </a>
+            <span id="stratio" class="col col-80 col-offset-10" style="display: none">
+                <p>Big Data is not a buzzword. It is a reality that is helping shape and transform lives, businesses
+                    and the world. We are amongst the select few who have been officially Spark certified, adopting it
+                    since its inception. From Machine Learning to Graph based tools, data processing, storage systems,
+                    real time streams… We are breaking ground in the development of Big Data technologies, and we are
+                    building a team of experts second to none.</p>
+                <a ng-href="http://www.stratio.com/"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    stratio.com
+                </a>
+            </span><br/>
+
+            <a href="#" ng-click="descripcion('bi4group')">
+                <img ng-src="img/Patrocinadores/bi4group.png" height="100px" width="150px"/>
+            </a>
+            <span id="bi4group" class="col col-80 col-offset-10" style="display: none">
+                <p>Bi4 Group is one of the most prestigious development companies in Spain for international clients in
+                    customized software. We are specialized in building complex web applications to fulfill the needs of
+                    our clients. These applications are used by many North European multinationals either to automate
+                    their daily processes or to gain more insight into their business. They are often crucial for their
+                    strategic decision making (Business Intelligence, Data Visualization, Big Data).</p>
+                <p>Bi4 Group always makes use of the latest technologies for the development of software and management
+                    of business processes. This way we guarantee the highest quality of the product, assure
+                    compatibility and optimize Return on Investment.</p>
+                <p>We are a young, fast growing company based in Granada. We want to contribute to stop the current
+                    brain drain in Spain towards Northern Europe. We bring international challenging projects to
+                    Granada, so developers can stay in the place they love and near their families.</p>
+                <p>At Bi4 Group we are one big team. What is most important to us is investing in human capital and
+                    providing the highest quality in our work and services.</p>
+                <a ng-href="http://www.bi4group.com/"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    bi4group.com
+                </a>
+            </span>
+        </div>
+
+        <br/><br/>
+        <div class="item item-divider">Comunidades, Media Partners y Colaboradores</div>
+        <div id="centrar" class="col col-80 col-offset-10">
+            <a href="http://www.uam.es/" ng-click="window.open(this.href, '_system', 'location=yes'); return false;">
+                <img ng-src="img/Patrocinadores/uam.png" height="100px" width="150px"/>
+            </a><br/>
+            <a href="http://www.uam.es/ss/Satellite/EscuelaPolitecnica/es/home.htm"
+               ng-click="window.open(this.href, '_system', 'location=yes'); return false;">
+                <img ng-src="img/Patrocinadores/eps.png" height="100px" width="150px"/>
+            </a><br/>
+            <a href="" ng-click="">
+                <img ng-src="img/Patrocinadores/autentia.png" height="100px" width="150px"/>
+            </a><br/>
+
+            <a href="" ng-click="descripcion('databeers')">
+                <img ng-src="img/Patrocinadores/databeers.png" height="100px" width="150px"/>
+            </a>
+            <span id="databeers" class="col col-80 col-offset-10" style="display: none">
+                <p>¿Alguna vez te han ayudado los datos a entender algo un poco
+                    mejor? ¿Utilizas el análisis de datos de manera práctica en tu día a día? ¿Has construido alguna vez
+                    un servicio basado en datos? ¿Has hecho alguna vez algún proyecto artístico basado en datos? ¿Te
+                    obsesionan los datos de alguna manera? Y, finalmente, ¿te gusta la cerveza? Entonces eres de la
+                    comunidad Databeers. Nos encanta discutir sobre datos y sus aplicaciones en un ambiente distendido y
+                    con cervezas con el resto de gente en nuestros eventos.</p>
+                <a ng-href="http://databeers.tumblr.com/"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    databeers.tumblr.com
+                </a>
+            </span><br/>
+
+            <a href="" ng-click="descripcion('betabeers')">
+                <img ng-src="img/Patrocinadores/betabeers.png" height="100px" width="150px"/>
+            </a>
+            <span id="betabeers" class="col col-80 col-offset-10" style="display: none">
+                <p>Betabeers es una comunidad de desarrolladores de servicios web, apps móviles y hardware con más de 5
+                    años de historia. Nuestros pilares fundamentales son la organización de eventos mensuales, el
+                    compartir conocimiento basado en experiencias y el networking.</p>
+                <a ng-href="https://betabeers.com/"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    betabeers.com
+                </a>
+            </span><br/>
+
+            <a href="" ng-click="descripcion('politikon')">
+                <img ng-src="img/Patrocinadores/politikon.png" height="100px" width="150px"/>
+            </a>
+            <span id="politikon" class="col col-80 col-offset-10" style="display: none">
+                <p>Politikon es el proyecto común de un grupo de académicos y profesionales que se reunieron en 2010 con
+                    el fin de promover debates y políticas basados en el conocimiento de las ciencias sociales. El
+                    objetivo de Politikon es mirar la realidad desde una perspectiva analítica y avanzar propuestas para
+                    el progreso de la sociedad; es un punto de encuentro entre la academia, los medios y los ciudadanos,
+                    y un centro de promoción de políticas públicas. Politikon, que está constituido formalmente como
+                    asociación, es independiente y apartidista, y no está ligado a ninguna organización política,
+                    académica, empresarial ni sindical.</p>
+                <a ng-href="http://politikon.es/"
+                   onclick="window.open(this.href, '_system', 'location=yes'); return false;">
+                    <i class="icon ion-android-globe"></i>
+                    politikon.es
+                </a>
+            </span>
+        </div>
+    </ion-content>
+</ion-view>

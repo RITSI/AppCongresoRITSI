@@ -1,0 +1,14 @@
+<ion-view cache-view="false" view-title="Ponentes">
+  <ion-content ng-controller="PonentesCtrl">
+    <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+    </ion-refresher>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="Ponentes in Ponentes" type="item-text-wrap" href="#/tab/Ponentes/{{Ponentes.id}}">
+        <img ng-src="{{Ponentes.face}}" alt="{{Ponentes.name}}">
+        <h2>{{Ponentes.name}}</h2>
+        <p>{{Ponentes.notes}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

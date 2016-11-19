@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-app-version": {
+            "PACKAGE_NAME": "com.ritsi.congreso"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ritsi.congreso"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ritsi.congreso"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ritsi.congreso"
+        }
+    },
+    "dependent_plugins": {}
+}
